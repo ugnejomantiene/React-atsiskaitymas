@@ -1,0 +1,47 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "level": "admin",
+      "email": "admin@admin.com",
+      "password": "admin",
+      "avatar": "https://i.pravatar.cc/150?img=55"
+    },
+    {
+      "id": 2,
+      "level": "user1",
+      "email": "user123@user.com",
+      "password": "user1111321",
+      "avatar": "https://i.pravatar.cc/150?img=2"
+    },
+    {
+      "id": 3,
+      "level": "user223",
+      "email": "user2@user.com",
+      "password": "user223",
+      "avatar": "https://i.pravatar.cc/150?img=66"
+    },
+    {
+      "email": "user3@user.com",
+      "password": "labas123",
+      "passwordRepeat": "labas123",
+      "avatar": "https://i.pravatar.cc/150?img=67",
+      "id": 1675323891417,
+      "level": "user"
+    }
+  ],
+  "posts": [
+    {
+      "id": 1,
+      "userId": 1,
+      "heading": "Jautrumas",
+      "content": "Tech..."
+    },
+    {
+      "heading": "Atkaklumas",
+      "content": "Tech...",
+      "id": 1674758168340,
+      "userId": 2
+    }
+  ]
+}
