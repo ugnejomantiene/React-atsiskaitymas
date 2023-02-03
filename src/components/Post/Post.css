@@ -1,3 +1,6 @@
+/* Post style  */
+
+
 .Post2 {
     width: 800px;
 
@@ -9,6 +12,45 @@
     background-color: rgb(149, 123, 173);
     align-items: center;
 
-
-
 }
+.Post p {
+    margin: 20px;
+}
+
+.Post:hover {
+    background-color: rgb(80, 52, 107);
+    scale: 1.1;
+}
+
+/* Add post form style  */
+
+.FormAddPost {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  form label {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+  }
+  
+  form input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    margin-bottom: 20px;
+  }
+  
+  form input[type="submit"] {
+    padding: 10px 20px;
+    background-color: rgb(116, 204, 120);
+    color: white;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+  }

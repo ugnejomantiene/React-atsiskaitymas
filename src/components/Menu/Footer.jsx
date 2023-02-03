@@ -5,7 +5,6 @@ const Footer = () => {
       <div className="container">
         <div className="row">
           <div className="footer-block">
-            
           </div>
         </div>
         <div className="footer-bottom">

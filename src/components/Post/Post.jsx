@@ -10,7 +10,6 @@ const Post = ({ data, postContent }) => {
     <>
       <div className="Post">
         <span>{postOwner.userName}</span>
-        <hr />
         <h1>{data.heading}</h1>
         <p>{data.content}</p>
         <p>{postContent}</p>

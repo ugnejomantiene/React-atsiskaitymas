@@ -1,0 +1,22 @@
+.UserInfo {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+}
+.ublock {
+    display: flex;
+    align-items: flex-end;
+}
+.ublock > *{
+    text-decoration: none;
+    margin: 20px;
+}
+.ublock button {
+    padding: 5px 10px;
+    border: none;
+    background-color: rgb(212, 209, 214);
+}
+.ublock button:hover {
+    background-color: blue;
+
+}
