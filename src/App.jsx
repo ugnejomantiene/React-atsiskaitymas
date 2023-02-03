@@ -1,3 +1,4 @@
+import './App.css';
 import Header from './components/Menu/Header';
 import Main from './components/Main';
 import Register from './components/Menu/Register';

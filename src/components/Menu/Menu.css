@@ -1,0 +1,72 @@
+/* Login  */
+.loginRegister {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 30px 0;
+}
+.loginRegister a {
+    text-decoration: none;
+    font-size: 50px;
+}
+.loginRegister img {
+    width: 200px;
+    height: 100px;
+}
+
+.Login {
+  width: 30%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 30px;
+}
+
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button[type="submit"] {
+  width: 150px;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+span {
+  color: red;
+  margin-top: 10px;
+}
+
+/* Footer  */
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #f5f5f5;
+  padding: 30px 0;
+  text-align: center;
+}
+.footer-block {
+  display: inline-block;
+}
+
+.footer-bottom {
+  margin-top: 20px;
+}

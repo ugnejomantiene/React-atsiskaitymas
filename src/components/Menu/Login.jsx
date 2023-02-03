@@ -43,7 +43,6 @@ const LogIn = () => {
         <Link to='/login'>Login</Link>
         <Link to='/register'>Register</Link>
       </div>
-      <h1>Prisijungimas</h1>
       <div className="Login">
         <Formik
           initialValues={{

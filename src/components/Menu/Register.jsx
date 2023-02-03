@@ -14,7 +14,6 @@ const Register = () => {
     email: Yup.string().required('email is required').min(3, 'email must be at least 3 characters'),
     password: Yup.string().required('Password is required').min(6, 'Password must be at least 6 characters'),
     passwordRepeat: Yup.string().required('Please repeat your password').oneOf([Yup.ref('password'), null], 'Passwords do not match'),
-    avatar: Yup.string().url('Please enter a valid URL')
   });
 
   const handleSubmit = (values) => {
@@ -41,7 +40,7 @@ const Register = () => {
       </div>
       <div className="FormRegister">
         <Formik
-          initialValues={{ email: '', password: '', passwordRepeat: '', avatar: '' }}
+          initialValues={{ email: '', password: '', passwordRepeat: ''  }}
           validationSchema={validationSchema}
           onSubmit={handleSubmit}
         >
@@ -62,11 +61,7 @@ const Register = () => {
                 <Field name="passwordRepeat" type="password" />
                 {errors.passwordRepeat && touched.passwordRepeat ? <div>{errors.passwordRepeat}</div> : null}
               </label>
-              <label>
-                User picture:
-                <Field name="avatar" type="url" />
-                {errors.avatar && touched.avatar ? <div>{errors.avatar}</div  > : null}
-              </label>
+              
               <button type="submit">Register</button>
             </Form>
           )}

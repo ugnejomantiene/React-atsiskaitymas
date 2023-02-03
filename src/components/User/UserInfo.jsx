@@ -21,7 +21,7 @@ const UserInfo = () => {
         <Link to="/">HOME</Link>
       </div>
       <div>
-        <Link to="/newPost">Add new post</Link>
+        <Link to="/newPost">Add post</Link>
         <Link to="/user">
           <img
             src={loggedInUser.avatar}
