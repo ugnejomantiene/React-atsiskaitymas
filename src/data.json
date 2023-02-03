@@ -31,6 +31,13 @@
       "passwordRepeat": "kkk123123",
       "id": 1675411185927,
       "level": "user"
+    },
+    {
+      "email": "joma@joma.lt",
+      "password": "lll111111",
+      "passwordRepeat": "lll111111",
+      "id": 1675420941210,
+      "level": "user"
     }
   ],
   "posts": [
@@ -56,6 +63,12 @@
       "heading": "Skanaukite mango vaisiaus",
       "content": "Padarykite pertraukėlę ir užkąskite tropinių vaisių. Užtruksite penkias minutes, kol nulupsite mangą ir galėsite mėgautis tobulu užkandžiu. Šis vaisius turi daug medžiagų, kurios padeda kovoti su stresu.",
       "id": 1675414747829,
+      "userId": 1675411185927
+    },
+    {
+      "heading": "Mano asmeninis patarimas",
+      "content": "D. Hilal sako, kad savo mitybą vertėtų praturtinti ir vyšniomis. „Vyšnios natūraliai turi daug melatonino – hormono, reguliuojančio organizmo cirkadinius ritmus ir skatinančio miegą“, – teigė ji. „Vakarienei galite rinktis avižas su vyšniomis. Toks maistas padės lengviau jums užmigti“, – pridūrė ji.  ",
+      "id": 1675420757298,
       "userId": 1675411185927
     }
   ]

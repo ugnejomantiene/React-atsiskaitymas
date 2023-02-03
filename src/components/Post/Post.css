@@ -16,6 +16,9 @@
 .Post p {
     margin: 20px;
 }
+.Post h1:hover{
+    color: white;
+}
 
 .Post:hover {
     background-color: rgb(80, 52, 107);
