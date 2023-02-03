@@ -37,14 +37,26 @@
     {
       "id": 1,
       "userId": 1,
-      "heading": "Tekstas",
-      "content": "Tech..."
+      "heading": "Išgerkite žaliosios arbatos",
+      "content": "Neliekite savo nepasitenkinimo ant kitų žmonių, geriau pasidarykite puodelį žolelių ar žaliosios arbatos. Pastaroji turi daug teanino, kuris padeda sumažinti kylantį pyktį"
     },
     {
-      "heading": "Tekstas",
-      "content": "Tech...",
+      "heading": "Paskanaukite šokolado",
+      "content": "Gabaliukas saldaus skanėsto nuramins jūsų sudirgintus nervus. Kartus juodasis šokoladas, kuriame yra daug kakavos, padės sumažinti streso hormono kortizolio kiekį ir sureguliuos medžiagų apykaitą",
       "id": 1674758168340,
       "userId": 2
+    },
+    {
+      "heading": "Šaukštelis medaus – į sveikatą!",
+      "content": "Sumažinkite stresą – pakabinkite šaukštelį medaus. Medus drėkina odą iš vidaus ir veikia kaip puikus antibiotikas bei gali padėti mažinti uždegiminius procesus ir kovoti su depresija bei nerimu.",
+      "id": 1675414078477,
+      "userId": 1675411185927
+    },
+    {
+      "heading": "Skanaukite mango vaisiaus",
+      "content": "Padarykite pertraukėlę ir užkąskite tropinių vaisių. Užtruksite penkias minutes, kol nulupsite mangą ir galėsite mėgautis tobulu užkandžiu. Šis vaisius turi daug medžiagų, kurios padeda kovoti su stresu.",
+      "id": 1675414747829,
+      "userId": 1675411185927
     }
   ]
 }

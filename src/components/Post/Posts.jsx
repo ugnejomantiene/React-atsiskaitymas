@@ -17,7 +17,7 @@ const Posts = () => {
       {
         activeUsers.map(user => (
           <div key={user.id}>
-            <div>
+            <div className='Post2'>
               {
                 posts.filter(post => post.userId === user.id).map(post => (
                   <Post key={post.id} data={post} />

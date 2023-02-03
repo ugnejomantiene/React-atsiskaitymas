@@ -1,0 +1,14 @@
+.Post2 {
+    width: 800px;
+
+}
+.Post {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    background-color: rgb(149, 123, 173);
+    align-items: center;
+
+
+
+}

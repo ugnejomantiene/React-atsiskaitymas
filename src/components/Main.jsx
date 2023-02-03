@@ -2,7 +2,7 @@ import Posts from "./Post/Posts";
 const Main = () => {
   return (
     <>
-      <h1>Emocijos</h1>
+      <h1>Atsipalaidavimo metodai</h1>
       <Posts />
     </>
   );

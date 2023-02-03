@@ -20,5 +20,9 @@ body {
     justify-content: center;
     width: 100%;
     height: 100%;
-    gap: 20px;
+    margin-bottom: 200px;
+  }
+  #root img {
+    width: 100px;
+    height: 100px;
   }

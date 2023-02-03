@@ -9,10 +9,6 @@ const Post = ({ data, postContent }) => {
   return (
     <>
       <div className="Post">
-        <img
-          src={postOwner.avatar}
-          alt="user avatar"
-        />
         <span>{postOwner.userName}</span>
         <hr />
         <h1>{data.heading}</h1>

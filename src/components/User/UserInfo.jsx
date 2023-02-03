@@ -16,20 +16,13 @@ const UserInfo = () => {
 
   return (
     <div className="UserInfo">
-      <div>
+      <div className="ublock">
         <WebLogo />
         <Link to="/">HOME</Link>
       </div>
-      <div>
+      <div className="ublock">
         <Link to="/newPost">Add post</Link>
-        <Link to="/user">
-          <img
-            src={loggedInUser.avatar}
-            alt="user avatar"
-          />
-          <span className="Username">{loggedInUser.userName}</span>
-          <span className="Role">{loggedInUser.level}</span>
-        </Link>
+       
         <button onClick={() => logOutUser()}>LogOut</button>
       </div>
     </div>
